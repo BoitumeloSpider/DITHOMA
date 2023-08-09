@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,18 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
-<title>Welcome to Finance Portal</title>
+<title>Welcome to Dithoma </title>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="assests/css/style.css">
+<link rel="stylesheet" href="css/style.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
 </head>
-<body>
+<body >
 <div class="signup-form">
     <form action="register_a.php" method="post" enctype="multipart/form-data">
+	<h1>Welcome to Dithoma <br> <b>a start to a new life </b></h1>
 		<h2>Register</h2>
 		<p class="hint-text">Create your account</p>
         <div class="form-group">
@@ -44,6 +46,7 @@
 		<div class="form-group">
             <button type="submit" name="save" class="btn btn-success btn-lg btn-block">Register Now</button>
         </div>
+        
         <div class="text-center">Already have an account? <a href="login.php">Sign in</a></div>
     </form>
 	
