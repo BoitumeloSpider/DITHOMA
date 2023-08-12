@@ -1,18 +1,7 @@
-
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
---
--- Database: `scrm_db`
---
-
--- --------------------------------------------------------
-
---
--- Table structure for table `admin`
---
 
 CREATE TABLE `admin` (
   `id` int(11) NOT NULL,
@@ -79,10 +68,7 @@ CREATE TABLE `ticket` (
 --
 
 INSERT INTO `ticket` (`id`, `name`, `email_id`, `surname`, `university`, `date_of_birth`, `address`, `nationality`, `status`, `admin_remark`, `posting_date`, `admin_remark_date`) VALUES
-(13, '6', 'khumalo@mail.com', 'Mitchel ticket', 'Option 3', 'tut,uj,ul', 'Sample Description of the ticket', NULL, 'closed', 'test', '2022-11-29', '2022-11-29 05:53:10'),
-(14, '7', 'mcooper@mail.com', 'Sample ticket 102', 'Option 4', 'non-urgent', 'Sample only', NULL, 'closed', 'done', '2022-11-29', '2022-11-29 05:53:52');
-
--- --------------------------------------------------------
+(13, '6', 'khumalo@mail.com', 'Mitchel ticket', 'Option 3', 'tut,uj,ul', 'Sample Description of the ticket', NULL, 'closed', 'test', '2022-11-29', '2022-11-29 05:53:10');
 
 --
 -- Table structure for table `user`
@@ -133,8 +119,7 @@ CREATE TABLE `usercheck` (
 --
 
 INSERT INTO `usercheck` (`id`, `logindate`, `logintime`, `user_id`, `username`, `email`, `ip`, `mac`, `city`, `country`) VALUES
-(4, '2022/11/29', '09:36:21am', 2, 'Mitchel', 'khumalo@mail.com', 0x3a3a31, 0x30302d30422d32422d30322d36352d44, '', ''),
-(3, '2022/11/29', '09:01:36am', 2, 'Mark Cooper', 'mcooper@mail.com', 0x3a3a31, 0x30302d30422d32422d30322d36352d44, '', '');
+(4, '2022/11/29', '09:36:21am', 2, 'Mitchel', 'khumalo@mail.com', 0x3a3a31, 0x30302d30422d32422d30322d36352d44, '', '');
 
 --
 -- Indexes for dumped tables
