@@ -42,7 +42,7 @@
           </li>
 
             <li class="nav-item">
-            <a class="nav-link" href="admin/">Admin Panel</a>
+            <a class="nav-link" href="admin/index.php">Admin Panel</a>
           </li>
         </ul>
       </div>
